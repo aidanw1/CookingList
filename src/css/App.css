@@ -1,0 +1,30 @@
+/* normalize library tries to make all the different browsers all have the same default values
+comes from create-react-app by default  */
+@import-normalize;
+@import "font.css";
+@import "buttons.css";
+@import "recipe-list.css";
+@import "ingredient-list.css";
+@import "recipe.css";
+@import "recipe-edit.css";
+
+*,
+*::before,
+*::after {
+  font-family: Gotham Rounded, sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* utilities */
+.mr-1 {
+  margin-right: 5px;
+}
